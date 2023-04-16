@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">
+        <font face="Allegro" color="#000000" size="35">
+            
+            Website Feedback Form
+            
+        </font>
+           
+    </h1>
+    <br>
+    <br>
+    <form>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <b>
+                        Is this the first time you have visited the website?  
+                    </b>
+                </td>
+                <td>
+                    <br>
+                    <input type="radio">Yes
+                    <br>
+                    <input type="radio">No<br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>
+                        What is the PRIMARY reason you came to the site?<br>
+                    </b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <textarea cols="60" rows="5" placeholder></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>
+                        Did you find what you needed?
+                    </b>
+                </td>
+                <td>
+                    <br><br>
+                    <input type="radio">Yes, all of it
+                    <br>
+                    <input type="radio">Yes, some of it
+                    <br>
+                    <input type="radio">No, none of it<br><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>
+                        <p>
+                            If you did not find any or all of what you needed<br>
+                            please tell us what information you were looking for.
+                        </p>
+                    </b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <textarea cols="60" rows="5" placeholder></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                        Please tell us how easy it is to find information on the site. 
+                    </b>
+                </td>
+                <td>
+                    <br><br><br>
+                    <input type="radio">Very Easy<br>
+                    <input type="radio">Easy<br>
+                    <input type="radio">Average<br>
+                    <input type="radio">Difficult<br>
+                    <input type="radio">Very Difficult<br><br>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>What is your overall impression of the site?
+                </td>
+            </tr>
+        
+          <tr>
+            <th class="first-col"></th>
+            <th>Below Expectations      </th>
+            <th>Meets Expectations      </th>
+            <th>Exceeds Expectations    </th>
+          </tr>
+          <tr>
+            <td class="first-col"><b>Professional</b></td>
+            <td><input type="radio" value="none" name="professional" /></td>
+            <td><input type="radio" value="none" name="professional" /></td>
+            <td><input type="radio" value="none" name="professional" /></td>
+          </tr>
+          <tr>
+            <td class="first-col"><b>Informative</b></td>
+            <td><input type="radio" value="none" name="Informative" /></td>
+            <td><input type="radio" value="none" name="Informative" /></td>
+            <td><input type="radio" value="none" name="Informative" /></td>
+          </tr>
+          <tr>
+            <td class="first-col"><b>Visually Pleasing</b></td>
+            <td><input type="radio" value="none" name="Visually" /></td>
+            <td><input type="radio" value="none" name="Visually" /></td>
+            <td><input type="radio" value="none" name="Visually" /></td>
+          </tr>
+
+          <tr>
+            <td>
+                <b>
+                    What is the likelihood that you will visit the website again?
+                </b>
+            </td>
+            <td>
+                <br><br><br><br><br>
+                <input type="radio"> Extremely likely<br>
+                <input type="radio"> Very likely<br>
+                <input type="radio">Moderately likely<br>
+                <input type="radio">Slightly likely<br>
+                <input type="radio">Not at all likely<br><br><br>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>
+                   
+                    Please add any comments you have for improving the website.<br>
+                    We welcome suggestions on specific areas for improvements,<br>
+                    features you would like to see added to the site, and examples<br>
+                    of what you consider good websites.<br>
+            
+                </b>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <textarea cols="60" rows="5" placeholder></textarea> <br><br>
+            </td>
+        </tr>
+           
+        <tr>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+</form>
+
+</html>
